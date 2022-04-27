@@ -63,7 +63,7 @@ class MessagingService : FirebaseMessagingService() {
 
         val notificationManager = NotificationManagerCompat.from(context)
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
-            var channel = NotificationChannel("ADL FIREBASE","pesam", NotificationManager.IMPORTANCE_HIGH)
+            var channel = NotificationChannel("ADL FIREBASE","pesan", NotificationManager.IMPORTANCE_HIGH)
             notificationManager.createNotificationChannel(channel)
 
         }
